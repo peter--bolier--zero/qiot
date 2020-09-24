@@ -1,13 +1,13 @@
 # qiot
 
-For now only the Dcokerfile use to crete the containers
+For now only the Dockerfiles use to create the containers on the edge
 
-Meant for usage non fedora IoT using podman.
+Meant for usage on fedora IoT using podman.
 
-example of usage
+Example of usage
 
 cd qiot/containers/sensor/service/sensor
-sudo podman build -t quay.io/<usrname>/qiot-sensorservice:<version>-<architecture> .
+sudo podman build -t quay.io/<usrname>/qiot-sensorservice:'version'-'architecture' .
 
 example:
 
